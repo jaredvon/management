@@ -12,6 +12,8 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'figaro'
+gem 'devise'
+gem 'milia', github: 'jekuno/milia', branch: 'issue#76'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
@@ -32,3 +34,5 @@ group :test do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
